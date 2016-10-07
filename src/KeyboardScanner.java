@@ -14,6 +14,6 @@ public class KeyboardScanner {
 		Floatpoint = scanner.nextFloat();
 		System.out.printf("Enter a you name: ");
 		Name = scanner.next();
-		System.out.printf("Hi %s, the multiplication of %d and %f is %e",Name,Integer,Floatpoint,Integer*Floatpoint);
+		System.out.printf("Hi %s, the multiplication of %d and %f is %.2e",Name,Integer,Floatpoint,Integer*Floatpoint);
 	}
 }
